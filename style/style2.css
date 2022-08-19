@@ -1,0 +1,167 @@
+
+@media screen and (max-width:540px){
+   
+    
+    .page6{
+        margin-top: 30px !important;
+        height: 500px !important; 
+    }
+
+}
+@media screen and (max-width:920px) {
+     
+    .nav{
+        width: 100%;
+    }utk
+    
+    
+    
+    .midnav1{
+        display: none;
+      
+    }
+    
+    .navres{
+        width: 100%;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+        
+
+        .navres p{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .navres div:first-child ,.navres div:last-child{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+
+    .navbi{
+        padding: 5px;
+        font-size: 17px;
+    }
+   
+    
+    .nav{
+       display: none;    
+    }
+    /*page1*/
+
+    .page1{
+        width: 100%;
+        height:auto !important;
+        margin-bottom: 10px;
+        background: none;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .respage1{
+        display: block;
+        width: 99%;
+    }
+
+    .resimg1{
+        width: 100%;
+        height: auto;
+    }
+   
+    .bigboxpage1{
+        width: 100%;
+    }
+
+    .boxpage1{
+        width: 80%;
+        display: block;
+       
+    }
+
+    .boxpage1 h1{
+        font-size: 29px;
+        padding-bottom:20px ;
+        margin-top: 20px;
+    }
+    .p1p1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /*page6*/
+    .page6{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bigboxpage6{
+        width: 100%;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 0 ;
+        padding: 0;
+
+    }
+    .p6box{
+        width: 94%;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+       background-color: #fff;
+        box-sizing: border-box;
+      margin-top: -50px ;
+        padding: 10px 0 20px 20px;
+
+    }
+
+    .resimg6{
+       
+        display: block;
+        width: 100%;
+        margin: 0;
+        
+        
+    }
+    .resimg6 img{
+       
+        height: auto;
+        width: 100%;
+    }
+      
+
+
+
+}
+
+
+@media screen and (max-width:400px){
+    .p1p2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .p6box{
+        width: 100%;
+        box-shadow: none;
+       background-color: #fff;
+        box-sizing: border-box;
+      margin-top: 10px ;
+        padding: 10px 0 20px 20px;
+
+    }
+
+}
+
